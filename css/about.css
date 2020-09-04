@@ -139,6 +139,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-bottom: 1px dashed black;
 }
 
 .middle-content .boxes .box {
@@ -153,9 +154,7 @@ p {
 }
 
 .bottom-content {
-    display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
 }
 
 .bottom-content .text-container {
