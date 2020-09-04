@@ -49,11 +49,10 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border:1px blue solid; */
+    border:1px blue solid;
 }
 
 html, body {
-    width:80%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -91,17 +90,19 @@ nav a{
 
 }
 
+/* General Styles */
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
-/* General Styles */
-
 p {
     line-height: 1.4;
 }
+
+/* Main Container */
 
 .container {
     width: 800px;
@@ -113,6 +114,8 @@ p {
     padding-top:2%;
     padding-bottom:2%;
 }
+
+/* Top Content */
 
 .top-content {
     display: flex;
@@ -127,6 +130,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -155,6 +160,8 @@ p {
     justify-content: center;
 }
 
+/* Bottom Content */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -168,6 +175,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer */
 
 footer {
     width: 100%;

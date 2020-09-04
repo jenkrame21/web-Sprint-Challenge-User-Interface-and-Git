@@ -49,11 +49,10 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border:1px blue solid; */
+    border:1px blue solid;
 }
 
 html, body {
-    width:80%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -91,17 +90,19 @@ nav a{
 
 }
 
+/* General Styles */
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
-/* General Styles */
-
 p {
     line-height: 1.4;
 }
+
+/* Main Container */
 
 .container {
     width: 800px;
@@ -114,6 +115,8 @@ p {
     padding-bottom:2%;
 }
 
+/* Top Content */
+
 .top-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -122,8 +125,11 @@ p {
 .top-content .text-container {
     width: 100%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin:auto 1%;
 }
+
+/* Middle Content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -143,15 +149,15 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 45%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Bottom Content */
 
 .bottom-content {
     margin: 0 2% 20px;
@@ -164,6 +170,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer */
 
 footer {
     width: 100%;
