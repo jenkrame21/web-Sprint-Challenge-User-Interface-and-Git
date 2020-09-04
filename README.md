@@ -33,10 +33,17 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic has meaning. Tags or elements that have meaning will be more specific such as header, referring to anything header related. Tags or elements that don't have meaning are usually divs and spans.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    display: block = It has set parameters and makes a 'box' around your content. Width and height can be changed.
+    display: inline = It only sits within an element like span and has no effects of width and height.
 
 3. What are the 4 areas of the box model?
+    Margin is the outer-most layer of the box model.
+    Padding is the next layer within margin.
+    Border is the next layer within padding then margin.
+    Content is within all 3 other above layers.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
