@@ -162,8 +162,7 @@ div.boxes{
 } 
 
 .middle-content .boxes p{
-    width:auto;
-    margin:2%;
+    width:100%;
 }
 
 .middle-content .boxes button{
@@ -173,6 +172,10 @@ div.boxes{
     border:black 2px solid;
     padding:2% 4%;
     border-radius:10px;
+}
+
+.middle-content .middle-text-content{
+    margin:0;
 }
 
 /* .middle-content .boxes .box{
