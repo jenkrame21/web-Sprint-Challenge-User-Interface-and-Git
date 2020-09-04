@@ -40,30 +40,32 @@ Edit this document to include your answers after each question. Make sure to lea
     display: inline = It only sits within an element like span and has no effects of width and height.
 
 3. What are the 4 areas of the box model?
-    Margin is the outer-most layer of the box model.
-    Padding is the next layer within margin.
-    Border is the next layer within padding then margin.
-    Content is within all 3 other above layers.
+    - Margin is the outer-most layer of the box model. ex.
+    - Border is the next layer within margin. Used to typically make border lines such as solid or dash lines.
+    - Padding is the next layer within border and margin. Padding helps giving space around the content and is transparent.
+    - Content is within all 3 other above layers. Contains images or texts.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    It works on the cross-axis. It depends on the justify-content value that may change it to main axis. 
 
 5. Explain why git is valuable to a team of developers.
+    Git helps to record your major changes if you commit and push every 15-30 minutes and notifies everyone on the team and you can type messages to them on what you've changed.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your Team Lead as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull-request
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your Team Lead as a reviewer on the pull-request
 - [ ] Your Team Lead will count the project as complete by merging the branch back into master.
  
 
@@ -76,20 +78,20 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
+* [x] box1: `teal`
+* [x] box2: `gold`
+* [x] box3: `cadetblue`
+* [x] box4: `coral`
+* [x] box5: `crimson`
+* [x] box6: `forestgreen`
+* [x] box7: `darkorchid`
+* [x] box8: `hotpink`
+* [x] box9: `indigo`
 * [ ] box10: `dodgerblue`
 
 ### About Page
